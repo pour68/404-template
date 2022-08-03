@@ -1,0 +1,19 @@
+:root {
+    --header-height: 3.5rem;
+
+    --first-color: hsl(38, 69%, 59%);
+    --text-color: hsl(38, 8%, 8%);
+
+    --body-font: "Space Grotesk", sans-serif;
+    --fs-big: 2.375rem;
+    --fs-md: 0.938rem;
+    --fs-xs: 0.75rem;
+}
+
+@media screen and (min-width: 1024px) {
+    :root {
+        --fs-big: 5rem;
+        --fs-md: 1rem;
+        --fs-xs: 0.813rem;
+    }
+}
